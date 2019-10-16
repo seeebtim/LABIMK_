@@ -1,0 +1,48 @@
+body {
+background:  no-repeat center center fixed; 
+background: url(img.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+
+    .jdlatas{
+	background-color: green;
+	padding:10px;
+	color: white;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #808080;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: white;}
+
+#customers tr, #customer td:hover {background-color: #ddd;}
+
+
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: green;
+    color: white;
+}
+
+h2{
+    color:red;
+}
+
+h3{
+    color:green;
+}

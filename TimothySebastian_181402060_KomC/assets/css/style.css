@@ -1,0 +1,92 @@
+body{
+	
+	background-position:center;
+	}
+
+#logoweb{
+	background-color: #DB3030;
+}
+
+#index-judul{
+	color: #DB3030;
+}
+
+#index-singkat{
+	color:rgba(0,0,0,0.5);
+}
+
+#index-penulis{
+	color:rgba(255,0,0,0.5);
+}
+
+#tgl-komentar{
+	color:gray;
+}
+
+.navbar{
+	background: white;
+	border-bottom: 2px solid #DB3030;
+}
+
+li a{
+	color: #DB3030;
+	}
+	
+li a:hover{
+	color: black;
+}
+
+.container{
+	background-color:white;
+	margin:30px;
+	padding:30px;
+}
+
+#kategori{
+	position: relative;
+	background-color: #DB3030;
+	padding:10px;
+	color: white;
+}
+
+.jdlatas{
+	background-color: #DB3030;
+	padding:10px;
+	color: white;
+}
+
+.garis { 
+	border: 1px solid #DB3030;
+}
+
+#kaki{
+	display: block;
+	background-color: #DB3030;
+	padding:5px;
+	width:100%;
+	color: white;
+	position:absolute;
+	bottom:0px;
+}
+
+#kaki a{
+	color: white;
+}
+
+
+html { 
+  background:  no-repeat center center fixed; 
+  background: url(img.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow: hidden;
+}
+
+img{
+  display: block;
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
